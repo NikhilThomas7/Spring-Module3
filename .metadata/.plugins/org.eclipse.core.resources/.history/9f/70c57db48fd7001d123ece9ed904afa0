@@ -1,0 +1,10 @@
+package com.ust.ioc2;
+
+public class Line {
+	
+	public void drawline() {
+		System.out.println("from"+p1);
+	}
+	
+
+}

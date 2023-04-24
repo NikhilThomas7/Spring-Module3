@@ -1,0 +1,29 @@
+package com.ust.iocautowiring;
+
+import javax.annotation.PostConstruct;
+import javax.annotation.PreDestroy;
+
+public class B {
+	A a;
+	
+	public B(A a) {
+		this.a=a;
+		System.out.println("from b() constructor");
+		// TODO Auto-generated constructor stub
+	}
+	public void setA(A a) {
+		System.out.println("setA() called");
+		this.a = a;
+	}
+	@PostConstruct
+	public void setUp() {
+		System.out.println("from setup");
+	}
+	
+	
+	
+	@PreDestroy
+	public void windUp() {
+		System.out.println("from windup");
+	}
+}

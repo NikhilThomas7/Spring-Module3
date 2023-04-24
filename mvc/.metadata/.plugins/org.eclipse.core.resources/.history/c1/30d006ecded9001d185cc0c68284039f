@@ -1,0 +1,12 @@
+package com.ust.rest.resource;
+
+import java.math.BigDecimal;
+
+public class Product {
+	private long ProductId;
+	private String productName;
+	private String description;
+	private BigDecimal price;
+	private int qty;
+
+}

@@ -1,0 +1,16 @@
+package com.ust.iocautowiring;
+
+public class B {
+	A a;
+	
+//	public B(A a) {
+//		this.a=a;
+//		System.out.println("from b() constructor");
+//		// TODO Auto-generated constructor stub
+//	}
+	public void setA(A a) {
+		System.out.println("setA() called");
+		this.a = a;
+	}
+
+}

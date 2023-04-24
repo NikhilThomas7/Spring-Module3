@@ -1,0 +1,9 @@
+package com.ust.rest.resource;
+
+public class Product {
+	private long ProductId;
+	private String productName;
+	private String description;
+	private BigDecimal price;
+
+}
